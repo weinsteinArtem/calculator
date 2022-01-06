@@ -6,9 +6,9 @@ function cookieAll() {
 let b = 0;
 let firstValue;
 let story = [];
-for(let i = 0; i<cookieAll.length;i++){
-    if(cookieAll[i].includes("theme")){
-        if(cookieAll[i].includes("black")){
+for(let i = 0; i< cookieAll().length;i++){
+    if(cookieAll()[i].includes("theme")){
+        if(cookieAll()[i].includes("black")){
             document.querySelector("body").classList.toggle("theme-change");
             document.getElementsByClassName("name")[0].classList.toggle("color-change")
             document.getElementsByClassName("btn-number")[0].classList.toggle("border-change")
