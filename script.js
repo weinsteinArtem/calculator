@@ -6,7 +6,23 @@ function cookieAll() {
 let b = 0;
 let firstValue;
 let story = [];
-
+for(let i = 0; i<cookieAll.length;i++){
+    if(cookieAll[i].includes("theme")){
+        if(cookieAll[i].includes("black")){
+            document.querySelector("body").classList.toggle("theme-change");
+            document.getElementsByClassName("name")[0].classList.toggle("color-change")
+            document.getElementsByClassName("btn-number")[0].classList.toggle("border-change")
+            document.getElementById("theme").classList.toggle("change-icon");
+            document.getElementById("powerSection").classList.toggle("theme-change")
+            document.getElementsByClassName("operations")[0].classList.toggle("color-change");
+            document.getElementById("story").classList.toggle("story-theme")
+            for (let i = 0; i < 20; i++) {
+                document.getElementsByClassName("history-res")[i].classList.toggle("color-change")
+            }
+            break;
+        }
+    }
+}
 if (search() == undefined) {
     document.cookie = "numer=0"
 }
@@ -427,6 +443,7 @@ function minusThanZeroFunctionPower() {
 }
 document.getElementById("theme").addEventListener("click", themeChanger);
 
+let l = 0;
 function themeChanger() {
     document.querySelector("body").classList.toggle("theme-change");
     document.getElementsByClassName("name")[0].classList.toggle("color-change")
@@ -438,7 +455,6 @@ function themeChanger() {
     for (let i = 0; i < 20; i++) {
         document.getElementsByClassName("history-res")[i].classList.toggle("color-change")
     }
-    let l = 0;
     if (l == 0) {
         document.cookie = `theme=black`
         l++;
