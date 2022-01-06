@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./Plugin icon - 1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header class="container">
+        <h1 class="name">Calculator by Artem</h1>
+        <div class="theme story" id="story"></div>
+        <div class="theme" id="theme"></div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="screen-all">
+                <p class="screen-two" id="screenTwo"></p>
+                <p class="screen" id="screen"></p>
+            </section>
+        </div>
+        <section class="power-icon-section" id="powerSection">
+            <div id="powerNumberScreen"></div>
+            <ul class="powerIcon">
+                <li class="functions-item-power"> <button class="btn-number" id="sevenPower">7</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="eightPower">8</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="ninePower">9</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="fourPower">4</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="fivePower">5</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="sixPower">6</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="zeroPower">0</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="onePower">1</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="twoPower">2</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="threePower">3</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="reversePower">C</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="minusThanZeroPower">-</button></li>
+                <li class="functions-item-power"> <button class="btn-number" id="ok">ok</button></li>
+            </ul>
+        </section>
+        <section class="functions m" id="functions">
+            <div class="container">
+                <ul class="functions-list">
+                    <li class="functions-item" id="safe"><button class="operations" id="safe-item"></button></li>
+                    <li class="functions-item"><button class="operations" id="reverse">C</button></li>
+                    <li class="functions-item"><button class="operations" id="power">^</button></li>
+                    <li class="functions-item"><button class="operations" id="factorial">!</button></li>
+                    <li class="functions-item"><button class="operations" id="division">&#247</button></li>
+                    <li class="functions-item"><button class="operations" id="seven">7</button></li>
+                    <li class="functions-item"><button class="operations" id="eight">8</button></li>
+                    <li class="functions-item"><button class="operations" id="nine">9</button></li>
+                    <li class="functions-item"><button class="operations" id="multiplication">&#215</button></li>
+                    <li class="functions-item"><button class="operations" id="four">4</button></li>
+                    <li class="functions-item"><button class="operations" id="five">5</button></li>
+                    <li class="functions-item"><button class="operations" id="six">6</button></li>
+                    <li class="functions-item"><button class="operations" id="minus">-</button></li>
+                    <li class="functions-item"><button class="operations" id="one">1</button></li>
+                    <li class="functions-item"><button class="operations" id="two">2</button></li>
+                    <li class="functions-item"><button class="operations" id="three">3</button></li>
+                    <li class="functions-item"><button class="operations" id="plus">+</button></li>
+                    <li class="functions-item"><button class="operations" id="zero">0</button></li>
+                    <li class="functions-item"><button class="operations" id="fraction">.</button></li>
+                    <li class="functions-item"><button class="operations" id="minusZero">-</button></li>
+                    <li class="functions-item"><button class="operations" id="equals">=</button></li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="history">
+            <ul class="history-list">
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+                <li class="history-item">
+                    <h4 class="second-history"></h4>
+                    <h3 class="history-res"></h3>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright2"><a target="blank" href="https://github.com/weinsteinArtem" class="copyright">&#169Copyright</a></p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
